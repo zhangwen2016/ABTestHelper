@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27BF113523E95B1500428B11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BF113423E95B1500428B11 /* AppDelegate.m */; };
+		27BF113823E95B1500428B11 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BF113723E95B1500428B11 /* SceneDelegate.m */; };
+		27BF113B23E95B1500428B11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BF113A23E95B1500428B11 /* ViewController.m */; };
+		27BF113E23E95B1500428B11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27BF113C23E95B1500428B11 /* Main.storyboard */; };
+		27BF114023E95B1900428B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27BF113F23E95B1900428B11 /* Assets.xcassets */; };
+		27BF114323E95B1900428B11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27BF114123E95B1900428B11 /* LaunchScreen.storyboard */; };
+		27BF114623E95B1900428B11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BF114523E95B1900428B11 /* main.m */; };
+		27BF115023E95B1900428B11 /* ABTestHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BF114F23E95B1900428B11 /* ABTestHelperTests.m */; };
+		27BF115B23E95B1900428B11 /* ABTestHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BF115A23E95B1900428B11 /* ABTestHelperUITests.m */; };
+		27BF116B23EABE9800428B11 /* RTTestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BF116A23EABE9800428B11 /* RTTestHelper.m */; };
+		B4B659DD5C72B33BDFCFB909 /* libPods-ABTestHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E6C23086836953EE8282B3 /* libPods-ABTestHelper.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27BF114C23E95B1900428B11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27BF112823E95B1500428B11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27BF112F23E95B1500428B11;
+			remoteInfo = ABTestHelper;
+		};
+		27BF115723E95B1900428B11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27BF112823E95B1500428B11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27BF112F23E95B1500428B11;
+			remoteInfo = ABTestHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27BF113023E95B1500428B11 /* ABTestHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABTestHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BF113323E95B1500428B11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27BF113423E95B1500428B11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27BF113623E95B1500428B11 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		27BF113723E95B1500428B11 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		27BF113923E95B1500428B11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		27BF113A23E95B1500428B11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27BF113D23E95B1500428B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27BF113F23E95B1900428B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27BF114223E95B1900428B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27BF114423E95B1900428B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27BF114523E95B1900428B11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27BF114B23E95B1900428B11 /* ABTestHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABTestHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BF114F23E95B1900428B11 /* ABTestHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABTestHelperTests.m; sourceTree = "<group>"; };
+		27BF115123E95B1900428B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27BF115623E95B1900428B11 /* ABTestHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABTestHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BF115A23E95B1900428B11 /* ABTestHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABTestHelperUITests.m; sourceTree = "<group>"; };
+		27BF115C23E95B1900428B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27BF116823EAB91E00428B11 /* abtest.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = abtest.pch; sourceTree = "<group>"; };
+		27BF116923EABE9800428B11 /* RTTestHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTTestHelper.h; sourceTree = "<group>"; };
+		27BF116A23EABE9800428B11 /* RTTestHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTTestHelper.m; sourceTree = "<group>"; };
+		78CBF61EC23BD4B3565A42A0 /* Pods-ABTestHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABTestHelper.debug.xcconfig"; path = "Target Support Files/Pods-ABTestHelper/Pods-ABTestHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		7DC124A2EEB5671AFD6316DF /* Pods-ABTestHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABTestHelper.release.xcconfig"; path = "Target Support Files/Pods-ABTestHelper/Pods-ABTestHelper.release.xcconfig"; sourceTree = "<group>"; };
+		81E6C23086836953EE8282B3 /* libPods-ABTestHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ABTestHelper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27BF112D23E95B1500428B11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B659DD5C72B33BDFCFB909 /* libPods-ABTestHelper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BF114823E95B1900428B11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BF115323E95B1900428B11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27BF112723E95B1500428B11 = {
+			isa = PBXGroup;
+			children = (
+				27BF113223E95B1500428B11 /* ABTestHelper */,
+				27BF114E23E95B1900428B11 /* ABTestHelperTests */,
+				27BF115923E95B1900428B11 /* ABTestHelperUITests */,
+				27BF113123E95B1500428B11 /* Products */,
+				EFFCB42588B44CD53B9E5760 /* Pods */,
+				ACA11CA9283EE6A109B185D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27BF113123E95B1500428B11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27BF113023E95B1500428B11 /* ABTestHelper.app */,
+				27BF114B23E95B1900428B11 /* ABTestHelperTests.xctest */,
+				27BF115623E95B1900428B11 /* ABTestHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27BF113223E95B1500428B11 /* ABTestHelper */ = {
+			isa = PBXGroup;
+			children = (
+				27BF113323E95B1500428B11 /* AppDelegate.h */,
+				27BF113423E95B1500428B11 /* AppDelegate.m */,
+				27BF113623E95B1500428B11 /* SceneDelegate.h */,
+				27BF113723E95B1500428B11 /* SceneDelegate.m */,
+				27BF113923E95B1500428B11 /* ViewController.h */,
+				27BF113A23E95B1500428B11 /* ViewController.m */,
+				27BF116923EABE9800428B11 /* RTTestHelper.h */,
+				27BF116A23EABE9800428B11 /* RTTestHelper.m */,
+				27BF113C23E95B1500428B11 /* Main.storyboard */,
+				27BF113F23E95B1900428B11 /* Assets.xcassets */,
+				27BF114123E95B1900428B11 /* LaunchScreen.storyboard */,
+				27BF114423E95B1900428B11 /* Info.plist */,
+				27BF114523E95B1900428B11 /* main.m */,
+				27BF116823EAB91E00428B11 /* abtest.pch */,
+			);
+			path = ABTestHelper;
+			sourceTree = "<group>";
+		};
+		27BF114E23E95B1900428B11 /* ABTestHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				27BF114F23E95B1900428B11 /* ABTestHelperTests.m */,
+				27BF115123E95B1900428B11 /* Info.plist */,
+			);
+			path = ABTestHelperTests;
+			sourceTree = "<group>";
+		};
+		27BF115923E95B1900428B11 /* ABTestHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27BF115A23E95B1900428B11 /* ABTestHelperUITests.m */,
+				27BF115C23E95B1900428B11 /* Info.plist */,
+			);
+			path = ABTestHelperUITests;
+			sourceTree = "<group>";
+		};
+		ACA11CA9283EE6A109B185D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81E6C23086836953EE8282B3 /* libPods-ABTestHelper.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFFCB42588B44CD53B9E5760 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78CBF61EC23BD4B3565A42A0 /* Pods-ABTestHelper.debug.xcconfig */,
+				7DC124A2EEB5671AFD6316DF /* Pods-ABTestHelper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27BF112F23E95B1500428B11 /* ABTestHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BF115F23E95B1900428B11 /* Build configuration list for PBXNativeTarget "ABTestHelper" */;
+			buildPhases = (
+				A6B1E1D76EA963356BE488A4 /* [CP] Check Pods Manifest.lock */,
+				27BF112C23E95B1500428B11 /* Sources */,
+				27BF112D23E95B1500428B11 /* Frameworks */,
+				27BF112E23E95B1500428B11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABTestHelper;
+			productName = ABTestHelper;
+			productReference = 27BF113023E95B1500428B11 /* ABTestHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27BF114A23E95B1900428B11 /* ABTestHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BF116223E95B1900428B11 /* Build configuration list for PBXNativeTarget "ABTestHelperTests" */;
+			buildPhases = (
+				27BF114723E95B1900428B11 /* Sources */,
+				27BF114823E95B1900428B11 /* Frameworks */,
+				27BF114923E95B1900428B11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27BF114D23E95B1900428B11 /* PBXTargetDependency */,
+			);
+			name = ABTestHelperTests;
+			productName = ABTestHelperTests;
+			productReference = 27BF114B23E95B1900428B11 /* ABTestHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27BF115523E95B1900428B11 /* ABTestHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BF116523E95B1900428B11 /* Build configuration list for PBXNativeTarget "ABTestHelperUITests" */;
+			buildPhases = (
+				27BF115223E95B1900428B11 /* Sources */,
+				27BF115323E95B1900428B11 /* Frameworks */,
+				27BF115423E95B1900428B11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27BF115823E95B1900428B11 /* PBXTargetDependency */,
+			);
+			name = ABTestHelperUITests;
+			productName = ABTestHelperUITests;
+			productReference = 27BF115623E95B1900428B11 /* ABTestHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27BF112823E95B1500428B11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Thea;
+				TargetAttributes = {
+					27BF112F23E95B1500428B11 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					27BF114A23E95B1900428B11 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 27BF112F23E95B1500428B11;
+					};
+					27BF115523E95B1900428B11 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 27BF112F23E95B1500428B11;
+					};
+				};
+			};
+			buildConfigurationList = 27BF112B23E95B1500428B11 /* Build configuration list for PBXProject "ABTestHelper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27BF112723E95B1500428B11;
+			productRefGroup = 27BF113123E95B1500428B11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27BF112F23E95B1500428B11 /* ABTestHelper */,
+				27BF114A23E95B1900428B11 /* ABTestHelperTests */,
+				27BF115523E95B1900428B11 /* ABTestHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27BF112E23E95B1500428B11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BF114323E95B1900428B11 /* LaunchScreen.storyboard in Resources */,
+				27BF114023E95B1900428B11 /* Assets.xcassets in Resources */,
+				27BF113E23E95B1500428B11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BF114923E95B1900428B11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BF115423E95B1900428B11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6B1E1D76EA963356BE488A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ABTestHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27BF112C23E95B1500428B11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BF113B23E95B1500428B11 /* ViewController.m in Sources */,
+				27BF116B23EABE9800428B11 /* RTTestHelper.m in Sources */,
+				27BF113523E95B1500428B11 /* AppDelegate.m in Sources */,
+				27BF114623E95B1900428B11 /* main.m in Sources */,
+				27BF113823E95B1500428B11 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BF114723E95B1900428B11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BF115023E95B1900428B11 /* ABTestHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BF115223E95B1900428B11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BF115B23E95B1900428B11 /* ABTestHelperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27BF114D23E95B1900428B11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27BF112F23E95B1500428B11 /* ABTestHelper */;
+			targetProxy = 27BF114C23E95B1900428B11 /* PBXContainerItemProxy */;
+		};
+		27BF115823E95B1900428B11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27BF112F23E95B1500428B11 /* ABTestHelper */;
+			targetProxy = 27BF115723E95B1900428B11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27BF113C23E95B1500428B11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27BF113D23E95B1500428B11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27BF114123E95B1900428B11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27BF114223E95B1900428B11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27BF115D23E95B1900428B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/anjuke/WenWork/ABTestHelper/ABTestHelper/abtest.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27BF115E23E95B1900428B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/anjuke/WenWork/ABTestHelper/ABTestHelper/abtest.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27BF116023E95B1900428B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78CBF61EC23BD4B3565A42A0 /* Pods-ABTestHelper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ABTestHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thea.abTestHelper.ABTestHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27BF116123E95B1900428B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DC124A2EEB5671AFD6316DF /* Pods-ABTestHelper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ABTestHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thea.abTestHelper.ABTestHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27BF116323E95B1900428B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ABTestHelperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thea.abTestHelper.ABTestHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABTestHelper.app/ABTestHelper";
+			};
+			name = Debug;
+		};
+		27BF116423E95B1900428B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ABTestHelperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thea.abTestHelper.ABTestHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABTestHelper.app/ABTestHelper";
+			};
+			name = Release;
+		};
+		27BF116623E95B1900428B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ABTestHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thea.abTestHelper.ABTestHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ABTestHelper;
+			};
+			name = Debug;
+		};
+		27BF116723E95B1900428B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ABTestHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thea.abTestHelper.ABTestHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ABTestHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27BF112B23E95B1500428B11 /* Build configuration list for PBXProject "ABTestHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BF115D23E95B1900428B11 /* Debug */,
+				27BF115E23E95B1900428B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BF115F23E95B1900428B11 /* Build configuration list for PBXNativeTarget "ABTestHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BF116023E95B1900428B11 /* Debug */,
+				27BF116123E95B1900428B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BF116223E95B1900428B11 /* Build configuration list for PBXNativeTarget "ABTestHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BF116323E95B1900428B11 /* Debug */,
+				27BF116423E95B1900428B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BF116523E95B1900428B11 /* Build configuration list for PBXNativeTarget "ABTestHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BF116623E95B1900428B11 /* Debug */,
+				27BF116723E95B1900428B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27BF112823E95B1500428B11 /* Project object */;
+}

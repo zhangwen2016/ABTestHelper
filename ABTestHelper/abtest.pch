@@ -1,0 +1,17 @@
+//
+//  abtest.pch
+//  ABTestHelper
+//
+//  Created by mosquitoo on 2020/2/5.
+//  Copyright © 2020 Thea. All rights reserved.
+//
+
+#ifndef abtest_h
+#define abtest_h
+
+#import "Masonry.h"
+
+
+#define guard(CONDITION) if(CONDITION){}
+
+#endif /* abtest_h */
